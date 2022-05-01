@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var model = UserListViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(model.users) { user in
+                NavigationLink {
+                    PostListView(userId: user.id)
+                } label: {
+                    Text("[\(user.id.description)] \(user.name)")
+                }
+            }
+            .navigationTitle("Users")
+        }
     }
 }
 

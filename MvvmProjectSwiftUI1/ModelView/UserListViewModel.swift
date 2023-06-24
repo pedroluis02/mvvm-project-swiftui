@@ -5,17 +5,17 @@
 //  Created by Pedro Luis on 30/04/22.
 //
 
-import Foundation
 import Combine
 
 class UserListViewModel: ObservableObject {
-    @Published var users = [User]() {
+    @Published var users: [User] = []
+    
+    /*Published var users = [User]() {
         didSet {
             didChange.send(self)
         }
     }
-    
-    let didChange = PassthroughSubject<UserListViewModel, Never>()
+    let didChange = PassthroughSubject<UserListViewModel, Never>()*/
     
     init() {
         getUsers()

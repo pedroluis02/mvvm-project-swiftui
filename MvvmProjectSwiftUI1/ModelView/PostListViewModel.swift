@@ -5,22 +5,23 @@
 //  Created by Pedro Luis on 30/04/22.
 //
 
-import Foundation
 import Combine
 
 class PostListViewModel: ObservableObject {
-    @Published var posts = [Post]() {
+    @Published var posts: [Post] = []
+    
+    /*@Published var posts = [Post]() {
         didSet {
             didChange.send(self)
         }
     }
-    
-    let didChange = PassthroughSubject<PostListViewModel, Never>()
+    let didChange = PassthroughSubject<PostListViewModel, Never>()*/
     
     var userId: Int
     
     init(_ userId: Int) {
         self.userId = userId
+        //getPosts()
     }
     
     func getPosts() {

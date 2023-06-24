@@ -4,10 +4,9 @@
 //
 //  Created by Pedro Luis on 23/04/22.
 //
+//  Ref: https://gorest.co.in/public/v2/users
 
 import Foundation
-
-//Ref: https://gorest.co.in/public/v2/users
 
 struct User: Codable, Hashable, Identifiable {
     let _id = UUID()

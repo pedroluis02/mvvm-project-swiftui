@@ -20,6 +20,9 @@
 		AAB0B9CF281DD72900CA730B /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0B9CE281DD72900CA730B /* PostListView.swift */; };
 		AAB0B9D4281E1F4B00CA730B /* RepositoryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0B9D3281E1F4B00CA730B /* RepositoryError.swift */; };
 		AAB0B9D6281E213900CA730B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AAB0B9D5281E213900CA730B /* README.md */; };
+		AAE4D6022A4688CB00929C04 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE4D6012A4688CB00929C04 /* UserListView.swift */; };
+		AAE4D6042A468BB700929C04 /* PostItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE4D6032A468BB700929C04 /* PostItemView.swift */; };
+		AAE4D6062A46920B00929C04 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE4D6052A46920B00929C04 /* UserDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		AAB0B9CE281DD72900CA730B /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
 		AAB0B9D3281E1F4B00CA730B /* RepositoryError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryError.swift; sourceTree = "<group>"; };
 		AAB0B9D5281E213900CA730B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AAE4D6012A4688CB00929C04 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		AAE4D6032A468BB700929C04 /* PostItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItemView.swift; sourceTree = "<group>"; };
+		AAE4D6052A46920B00929C04 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,12 +76,12 @@
 		AA45803C281502BA00238D66 /* MvvmProjectSwiftUI1 */ = {
 			isa = PBXGroup;
 			children = (
+				AAE4D6002A46885400929C04 /* View */,
 				AAB0B9D2281E04C700CA730B /* Repository */,
 				AAB0B9D1281E04AC00CA730B /* ModelView */,
 				AAB0B9D0281E048D00CA730B /* Model */,
 				AA45803D281502BA00238D66 /* MvvmProjectSwiftUI1App.swift */,
 				AA45803F281502BA00238D66 /* ContentView.swift */,
-				AAB0B9CE281DD72900CA730B /* PostListView.swift */,
 				AA458041281502BE00238D66 /* Assets.xcassets */,
 				AA458043281502BE00238D66 /* Preview Content */,
 			);
@@ -116,6 +122,17 @@
 				AAB0B9D3281E1F4B00CA730B /* RepositoryError.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		AAE4D6002A46885400929C04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0B9CE281DD72900CA730B /* PostListView.swift */,
+				AAE4D6012A4688CB00929C04 /* UserListView.swift */,
+				AAE4D6032A468BB700929C04 /* PostItemView.swift */,
+				AAE4D6052A46920B00929C04 /* UserDetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,12 +207,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAA8ED83281D06F60082D3BE /* PostListViewModel.swift in Sources */,
+				AAE4D6042A468BB700929C04 /* PostItemView.swift in Sources */,
 				AAA8ED85281D07CC0082D3BE /* UserListViewModel.swift in Sources */,
 				AA458040281502BA00238D66 /* ContentView.swift in Sources */,
+				AAE4D6062A46920B00929C04 /* UserDetailView.swift in Sources */,
 				AA45803E281502BA00238D66 /* MvvmProjectSwiftUI1App.swift in Sources */,
 				AAB0B9D4281E1F4B00CA730B /* RepositoryError.swift in Sources */,
 				AA45804C281505B800238D66 /* User.swift in Sources */,
 				AAA8ED81281CDFC50082D3BE /* RepositoryClient.swift in Sources */,
+				AAE4D6022A4688CB00929C04 /* UserListView.swift in Sources */,
 				AA45804E2815077000238D66 /* Post.swift in Sources */,
 				AAB0B9CF281DD72900CA730B /* PostListView.swift in Sources */,
 				AAA8ED7F281CDD240082D3BE /* RepositoryManager.swift in Sources */,

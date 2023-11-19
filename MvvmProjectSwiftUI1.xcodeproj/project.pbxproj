@@ -26,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA12C7B42B0AD2DD00A9757C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		AA45803A281502BA00238D66 /* MvvmProjectSwiftUI1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MvvmProjectSwiftUI1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA45803D281502BA00238D66 /* MvvmProjectSwiftUI1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvvmProjectSwiftUI1App.swift; sourceTree = "<group>"; };
 		AA45803F281502BA00238D66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				AAB0B9D5281E213900CA730B /* README.md */,
+				AA12C7B42B0AD2DD00A9757C /* .gitignore */,
 				AA45803C281502BA00238D66 /* MvvmProjectSwiftUI1 */,
 				AA45803B281502BA00238D66 /* Products */,
 			);

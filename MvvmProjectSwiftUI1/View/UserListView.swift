@@ -1,10 +1,3 @@
-//
-//  UserListView.swift
-//  MvvmProjectSwiftUI1
-//
-//  Created by Pedro Luis on 23/06/23.
-//
-
 import SwiftUI
 
 struct UserListView: View {

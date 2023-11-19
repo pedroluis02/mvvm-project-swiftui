@@ -1,10 +1,3 @@
-//
-//  RepositoryManager.swift
-//  MvvmProjectSwiftUI1
-//
-//  Created by Pedro Luis on 29/04/22.
-//
-
 import Foundation
 
 class RepositoryManager {

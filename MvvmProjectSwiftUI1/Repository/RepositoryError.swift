@@ -1,10 +1,3 @@
-//
-//  RepositoryError.swift
-//  MvvmProjectSwiftUI1
-//
-//  Created by Pedro Luis on 30/04/22.
-//
-
 struct RepositoryError : Error {
     let message: String
     

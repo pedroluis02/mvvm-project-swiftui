@@ -1,10 +1,3 @@
-//
-//  MvvmProjectSwiftUI1App.swift
-//  MvvmProjectSwiftUI1
-//
-//  Created by Pedro Luis on 23/04/22.
-//
-
 import SwiftUI
 
 @main

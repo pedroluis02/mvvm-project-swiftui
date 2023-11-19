@@ -1,10 +1,3 @@
-//
-//  PostListView.swift
-//  MvvmProjectSwiftUI1
-//
-//  Created by Pedro Luis on 30/04/22.
-//
-
 import SwiftUI
 
 struct PostListView: View {

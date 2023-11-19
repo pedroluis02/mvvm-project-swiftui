@@ -1,9 +1,3 @@
-//
-//  User.swift
-//  MvvmProjectSwiftUI1
-//
-//  Created by Pedro Luis on 23/04/22.
-//
 //  Ref: https://gorest.co.in/public/v2/users
 
 import Foundation
